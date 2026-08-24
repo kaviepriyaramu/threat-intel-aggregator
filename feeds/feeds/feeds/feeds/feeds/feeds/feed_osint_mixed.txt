@@ -1,0 +1,9 @@
+# Secondary OSINT feed - mixed indicator dump, one per line, type auto-detected
+185.220.101.45
+91.219.237.244
+update-secure-check.com
+secure-bank-verification.info
+194.147.78.23
+phishing-report@login-verify-support.com
+10.0.0.5
+256.100.50.1
