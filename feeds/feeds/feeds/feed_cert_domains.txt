@@ -1,0 +1,8 @@
+# CERT-IN style advisory feed - malicious domains observed in active campaigns
+# Format: one domain per line, lines starting with # are comments
+update-secure-check.com
+freegift-claim.net
+secure-bank-verification.info
+malware-drop-zone.xyz
+freegift-claim.net
+login-verify-support.com
