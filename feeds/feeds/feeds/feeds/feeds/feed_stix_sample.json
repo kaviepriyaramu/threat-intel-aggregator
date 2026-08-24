@@ -1,0 +1,41 @@
+{
+  "type": "bundle",
+  "id": "bundle--sample-ti-feed-01",
+  "objects": [
+    {
+      "type": "indicator",
+      "id": "indicator--001",
+      "pattern": "[ipv4-addr:value = '185.220.101.45']",
+      "labels": ["malicious-activity"],
+      "valid_from": "2026-08-12T00:00:00Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--002",
+      "pattern": "[domain-name:value = 'malware-drop-zone.xyz']",
+      "labels": ["malicious-activity"],
+      "valid_from": "2026-08-13T00:00:00Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--003",
+      "pattern": "[file:hashes.MD5 = '5d41402abc4b2a76b9719d911017c592']",
+      "labels": ["malicious-activity"],
+      "valid_from": "2026-08-13T00:00:00Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--004",
+      "pattern": "[ipv4-addr:value = '89.248.165.200']",
+      "labels": ["anomalous-activity"],
+      "valid_from": "2026-08-14T00:00:00Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--005",
+      "pattern": "[email-addr:value = 'support@login-verify-support.com']",
+      "labels": ["malicious-activity"],
+      "valid_from": "2026-08-14T00:00:00Z"
+    }
+  ]
+}
