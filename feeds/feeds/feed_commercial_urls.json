@@ -1,0 +1,12 @@
+{
+  "provider": "CommercialTI-Feed",
+  "generated": "2026-08-15T00:00:00Z",
+  "indicators": [
+    {"url": "http://185.220.101.45/panel/gate.php", "category": "c2_panel", "severity": "high"},
+    {"url": "http://update-secure-check.com/login", "category": "phishing", "severity": "medium"},
+    {"url": "http://176.113.115.88/wp-login.php", "category": "phishing", "severity": "medium"},
+    {"url": "http://freegift-claim.net/verify", "category": "phishing", "severity": "low"},
+    {"url": "http://91.219.237.244:8080/gate", "category": "malware_dropper", "severity": "high"},
+    {"url": "http://185.220.101.45:443/admin", "category": "c2_panel", "severity": "high"}
+  ]
+}
